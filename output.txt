@@ -1,0 +1,126 @@
+where: /path/to/search/directory
+name: filename.txt
+mmin: +5
+action: delete
+where: /home/eaarcher/PP2
+name: filename.txt
+mmin: +5
+action: delete
+where: testdir
+inum: 144123946252381202
+action: test6
+testdir/test2
+where: testdir
+inum: 144123946252381202
+action: test2
+testdir/test2
+where: testdir
+inum: 144123946252381202
+action: test2
+testdir/test2
+where: testdir
+inum: 144123946252381202
+name: test6
+testdir/test2
+testdir/dir1/dir2/test6
+where: testdir
+inum: 144123946252381202
+name: test6
+testdir/test2
+testdir/dir1/dir2/test6
+where: testdir
+inum: 144123946252381202
+name: test6
+testdir/test2
+testdir/dir1/dir2/test6
+where: testdir
+inum: 144123946252381202
+action: test6
+testdir/test2
+where: testdir
+inum: 144123946252381202
+action: test2
+testdir/test2
+where: testdir
+name: file
+action: delete
+where: testdir
+name: file
+action: delete
+where: testdir
+inum: 144123947074464697
+name: test6
+testdir/test2
+testdir/dir1/dir2/test6
+where: testdir
+inum: 144123947074464697
+action: test6
+testdir/test2
+where: testdir
+inum: 144123947074464697
+testdir/test2
+where: testdir
+testdir/test2
+testdir/test1
+testdir/dir3
+testdir/dir3/test8
+testdir/dir3/test7
+testdir/dir1
+testdir/dir1/dir2
+testdir/dir1/dir2/test5
+testdir/dir1/dir2/test6
+testdir/dir1/test3
+testdir/dir1/test4
+where: testdir
+name: file1.txt
+where: testdir
+mmin: -10
+testdir/test2
+testdir/test1
+testdir/dir3
+testdir/dir3/test8
+testdir/dir3/test7
+testdir/dir1
+testdir/dir1/dir2
+testdir/dir1/dir2/test5
+testdir/dir1/dir2/test6
+testdir/dir1/test3
+testdir/dir1/test4
+where: testdir
+inum: 144123947074464697
+testdir/test2
+where: testdir
+mmin: +20
+action: delete
+where: non_existent_directory
+where: testdir
+testdir/test2
+testdir/test1
+testdir/dir3
+testdir/dir3/test8
+testdir/dir3/test7
+testdir/dir1
+testdir/dir1/dir2
+testdir/dir1/dir2/test5
+testdir/dir1/dir2/test6
+testdir/dir1/test3
+testdir/dir1/test4
+where: testdir
+name: file_prefix
+mmin: +5
+testdir/test2
+testdir/test1
+testdir/dir3
+testdir/dir3/test8
+testdir/dir3/test7
+testdir/dir1
+testdir/dir1/dir2
+testdir/dir1/dir2/test5
+testdir/dir1/dir2/test6
+testdir/dir1/test3
+testdir/dir1/test4
+name: filename_prefix
+mmin: -10
+No directory given or directory does not exist.
+There are 1 command-line arguments left to process:
+Argument 1: 'testdir'

@@ -14,7 +14,7 @@ The utility provides several command-line options:
 <br>
 Here is an example of how to use the utility:
 <br>
-``./find -w /path/to/search/directory -n filename.txt -m +5 -a delete``
+`./find -w /path/to/search/directory -n filename.txt -m +5 -a delete`
 <br>
 
 ***(School Project)***

@@ -4,6 +4,9 @@ This repository contains a simple file finder utility implemented in C. The util
 ### Compilation
 To compile the utility, ensure you have gcc installed. Then, run the following command: `make`
 
+### Usage
+The utility provides several command-line options:
+- ***`-w directory`***: Specify the directory to start the search from.
 <br>
 <br>
 

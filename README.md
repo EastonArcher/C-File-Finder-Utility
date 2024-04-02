@@ -7,6 +7,7 @@ To compile the utility, ensure you have gcc installed. Then, run the following c
 ### Usage
 The utility provides several command-line options:
 - ***-w directory***: Specify the directory to start the search from.
+- ***-n name***: Search for files with the specified name.
 <br>
 <br>
 

@@ -1,5 +1,3 @@
-// ./find -w /path/to/search/directory -n filename.txt -m +5 -a delete
-
 where: /path/to/search/directory
 name: filename.txt
 mmin: +5

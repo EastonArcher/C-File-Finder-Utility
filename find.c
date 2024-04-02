@@ -157,7 +157,7 @@ int main(int argc, char **argv) {
                 inum = optarg;
                 fprintf(outputFile, "inum: %s\n", optarg);
                 break;
-            case 'a': 
+            case 'a': //Action
                 a = 1;
                 action = optarg;
                 fprintf(outputFile, "action: %s\n", optarg);

@@ -162,10 +162,10 @@ int main(int argc, char **argv) {
                 action = optarg;
                 fprintf(outputFile, "action: %s\n", optarg);
                 break;
-            case '?':
+            case '?': // To handle unknown or unsupported options
             default:
                 fprintf(stderr, "Usage: %s [-w directory] [-n name] [-m mmin] [-i inum] [-a action]\n", argv[0]);
-                return 1;
+                return 1; // Return with error status code
         }
     }
 

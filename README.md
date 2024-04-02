@@ -34,4 +34,5 @@ action: delete
 - This utility is implemented for Unix-like systems and may not work on Windows without modifications.
 - Use caution when performing actions like deletion (`-a delete`), as it cannot be undone.
 <br>
+
 ***(School Project)***

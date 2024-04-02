@@ -152,7 +152,7 @@ int main(int argc, char **argv) {
                 mmin = optarg;
                 fprintf(outputFile, "mmin: %s\n", optarg);
                 break;
-            case 'i': 
+            case 'i': //Inode Number
                 i = 1;
                 inum = optarg;
                 fprintf(outputFile, "inum: %s\n", optarg);

@@ -147,7 +147,7 @@ int main(int argc, char **argv) {
                 name = optarg;
                 fprintf(outputFile, "name: %s\n", optarg);
                 break;
-            case 'm': 
+            case 'm': //Modified Minutes
                 m = 1;
                 mmin = optarg;
                 fprintf(outputFile, "mmin: %s\n", optarg);

@@ -137,27 +137,27 @@ int main(int argc, char **argv) {
     char c; // Initialize a character to store each command line option
     while ((c = getopt(argc, argv, "w:n:m:i:a:")) != -1) {
         switch (c) {
-            case 'w':
+            case 'w': //Directory
                 w = 1;
                 where = optarg;
                 fprintf(outputFile, "where: %s\n", optarg);
                 break;
-            case 'n':
+            case 'n': //Name
                 n = 1;
                 name = optarg;
                 fprintf(outputFile, "name: %s\n", optarg);
                 break;
-            case 'm':
+            case 'm': 
                 m = 1;
                 mmin = optarg;
                 fprintf(outputFile, "mmin: %s\n", optarg);
                 break;
-            case 'i':
+            case 'i': 
                 i = 1;
                 inum = optarg;
                 fprintf(outputFile, "inum: %s\n", optarg);
                 break;
-            case 'a':
+            case 'a': 
                 a = 1;
                 action = optarg;
                 fprintf(outputFile, "action: %s\n", optarg);

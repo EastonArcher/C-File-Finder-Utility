@@ -8,6 +8,7 @@ To compile the utility, ensure you have gcc installed. Then, run the following c
 The utility provides several command-line options:
 - ***-w directory***: Specify the directory to start the search from.
 - ***-n name***: Search for files with the specified name.
+- ***-m mmin***: Search for files modified within the last mmin minutes. You can use + or - prefix to specify greater than or less than mmin minutes respectively.
 <br>
 <br>
 
